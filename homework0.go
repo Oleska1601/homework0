@@ -18,7 +18,9 @@ func IsPalindrome(input string) bool {
 }
 
 func main() {
+	// проверка
 	fmt.Println(IsPalindrome("А роза упала на лапу Азора"))
 	fmt.Println(IsPalindrome("оаоао"))
 	fmt.Println(IsPalindrome("hello world"))
+	fmt.Println(IsPalindrome("голод долог"))
 }
